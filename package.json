@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "Portfolio Rune Pjetursson 2025",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/seo": "^2.0.2",
     "nuxt": "^3.15.1",
+    "nuxt-cloudflare-analytics": "^1.0.8",
+    "sass": "^1.83.1",
+    "three": "^0.172.0",
     "vue": "latest",
     "vue-router": "latest"
   }
