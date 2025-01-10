@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(14, 14, 14);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.align {
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.top {
+  margin-bottom: auto;
+}
+
+.bottom {
+  margin-top: auto;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+}
