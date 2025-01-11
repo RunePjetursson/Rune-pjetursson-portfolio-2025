@@ -12,7 +12,10 @@ useSeoMeta({
 
 <template>
   <main class="flex column align">
-    <MainAbout />
+    <div class="cont-top flex row">
+      <MainAbout />
+      <MainCodeInfo />
+    </div>
   </main>
 </template>
 
@@ -25,5 +28,8 @@ main {
   margin: 0 auto;
   min-height: 90vh;
   width: 100%;
+  .cont-top {
+    gap: 10px;
+  }
 }
 </style>

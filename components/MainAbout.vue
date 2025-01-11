@@ -1,6 +1,6 @@
 <template>
   <div class="cont-top flex row">
-    <section class="flex column bio">
+    <section class="flex column bio cont-bg">
       <img
         class="img"
         src="https://media.licdn.com/dms/image/v2/D5603AQH4yjBJp5JcMg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1680048970300?e=1741824000&v=beta&t=NFYmALxvdlnLbqiSQibpOmIdpMa-jxek6zvdbE6RXXk"
@@ -25,9 +25,6 @@
 
 .cont-top {
   .bio {
-    padding: 20px;
-    background-color: #00000028;
-    border-radius: 25px;
     text-align: center;
     hr {
       width: 90%;
