@@ -14,7 +14,6 @@
       <div class="column-2 scrolling-container">
         <p class="scrolling-text">
           <span v-for="(item, index) in allItems" :key="index">{{ item }}</span>
-          <span class="separator">|</span>
         </p>
       </div>
     </div>
