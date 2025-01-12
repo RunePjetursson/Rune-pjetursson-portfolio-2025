@@ -18,5 +18,8 @@
     "three": "^0.172.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0"
   }
 }

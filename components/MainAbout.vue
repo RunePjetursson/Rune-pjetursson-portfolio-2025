@@ -7,7 +7,7 @@
         alt="Headshot image of Rune M. P. P. - temporary img inserted"
       />
       <h1>Rune M. P. Pjetursson</h1>
-      <hr />
+      <hr aria-hidden="true" />
       <TagBox />
     </section>
   </div>
@@ -18,14 +18,11 @@ import TagBox from "./sub-components/TagBox.vue";
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/style/main.scss";
-
 .cont-top {
   margin-bottom: auto;
   .bio {
     text-align: center;
-    min-width: 420px;
-    max-width: 500px;
+    width: 400px;
     hr {
       width: 90%;
       filter: opacity(20%);

@@ -20,8 +20,6 @@ useSeoMeta({
 </template>
 
 <style lang="scss" scoped>
-@import "../assets/style/main.scss";
-
 main {
   max-width: 1440px;
   min-width: 350px;
@@ -30,6 +28,8 @@ main {
   width: 100%;
   .cont-top {
     gap: 10px;
+    min-height: 75vh;
+    margin-bottom: auto;
   }
 }
 </style>

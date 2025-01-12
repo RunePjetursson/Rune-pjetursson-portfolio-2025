@@ -6,6 +6,18 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "nuxt-cloudflare-analytics",
     "@nuxtjs/color-mode",
+    "@nuxtjs/google-fonts",
   ],
-  css: ["/assets/style/main.scss"],
+  googleFonts: {
+    families: {
+      Quicksand: {
+        wght: [300, 400, 500, 600, 700],
+      },
+    },
+    display: "swap",
+  },
+  css: ["@/assets/style/main.scss"],
+  cloudflareAnalytics: {
+    token: "your-cloudflare-token",
+  },
 });

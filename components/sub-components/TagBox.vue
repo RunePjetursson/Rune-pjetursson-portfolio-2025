@@ -1,17 +1,22 @@
 <template>
   <section class="txt-box flex row">
     <div class="flex column txt-left">
-      <p class="column-1">Title</p>
-      <p class="column-1">Occupation</p>
-      <p class="column-1">Age</p>
-      <p class="column-1">What I know</p>
+      <h2 class="column-1">Title</h2>
+      <h2 class="column-1">Occupation</h2>
+      <h2 class="column-1">Age</h2>
+      <h2 class="column-1">What I know</h2>
     </div>
-    <hr />
+    <hr aria-hidden="true" />
     <div class="flex column txt-right">
       <p class="column-2">Digital Concept Developer</p>
       <p class="column-2">Student <span>| 2022 -2026 |</span></p>
       <p class="column-2">{{ age }}</p>
-      <div class="column-2 scrolling-container">
+      <div
+        class="column-2 scrolling-container"
+        aria-label="Scrollable list of knowledge items"
+        aria-live="polite"
+        aria-atomic="true"
+      >
         <p class="scrolling-text">
           <span v-for="(item, index) in allItems" :key="index">{{ item }}</span>
         </p>
@@ -78,6 +83,14 @@ const allItems = [
   gap: 15px;
   overflow: hidden;
   width: 100%;
+  h2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
   hr {
     width: 1px;
     height: 100%;
