@@ -23,6 +23,18 @@ p {
   }
 }
 
+button {
+  background-color: rgb(61, 61, 61);
+  border: transparent;
+  padding: 10px;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+  outline: double 10px transparent;
+  box-shadow: 5px 5px 10px #00000075;
+  &:hover {
+    outline: 2px solid #fff;
+  }
+}
 .cont-bg {
   padding: 20px;
   background-color: #00000028;

@@ -12,7 +12,7 @@ useSeoMeta({
 
 <template>
   <main class="flex column align">
-    <div class="cont-top flex row">
+    <div class="cont-top flex row wrap align">
       <MainAbout />
       <MainCodeInfo />
     </div>
