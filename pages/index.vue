@@ -15,6 +15,7 @@ useSeoMeta({
     <div class="cont-top flex row wrap align">
       <MainAbout />
       <MainCodeInfo />
+      <FePCases />
     </div>
   </main>
 </template>

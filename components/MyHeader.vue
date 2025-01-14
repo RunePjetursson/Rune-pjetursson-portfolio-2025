@@ -1,19 +1,61 @@
 <template>
-  <header><div class="cont"></div></header>
+  <header>
+    <div class="cont align flex">
+      <nav>
+        <ul class="flex row">
+          <li><a href="/" title="Navigate to home page">Home</a></li>
+          <li>
+            <a
+              href="/#projects"
+              title="Navigate to home page under the project section"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="/#about"
+              title="Navigate to home about under the about section"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="/contacts" title="Navigate to contact page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </template>
 
 <style lang="scss" scoped>
 header {
   width: 100%;
+  max-width: 1440px;
   background-color: transparent;
-  margin: 0 0 10px 0;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
   .cont {
     margin: 0 auto;
     max-width: 1440px;
-    background-color: aquamarine;
     height: 80px;
     position: relative;
     border-radius: 0 0 5px 5px;
+    nav {
+      filter: opacity(90%);
+      margin-left: auto;
+      ul {
+        gap: 25px;
+        li {
+          a {
+            text-shadow: 1px 1px 2px #000000;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
   }
 }
 </style>

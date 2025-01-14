@@ -23,6 +23,20 @@ p {
     filter: opacity(60%);
   }
 }
+a {
+  text-decoration: none;
+  &:link {
+    color: inherit;
+  }
+  &:visited {
+    color: inherit;
+  }
+}
+ul {
+  li {
+    list-style-type: none;
+  }
+}
 
 button {
   background-color: rgb(61, 61, 61);
