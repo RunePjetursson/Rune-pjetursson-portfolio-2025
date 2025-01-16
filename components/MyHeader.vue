@@ -31,17 +31,21 @@
 header {
   width: 100%;
   max-width: 1440px;
-  background-color: transparent;
+  background-color: #0000000e;
   margin: 0 auto;
   margin-bottom: 25px;
-  padding: 10px;
+  padding: 25px;
+  height: 100px;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  z-index: 100;
+  top: 0;
   .cont {
-    margin: 0 auto;
     max-width: 1440px;
-    height: 80px;
     position: relative;
     border-radius: 0 0 5px 5px;
     nav {
+      padding: 25px;
       filter: opacity(90%);
       margin-left: auto;
       ul {

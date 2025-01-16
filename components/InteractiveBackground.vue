@@ -156,6 +156,6 @@ export default {
   height: 100%;
   z-index: -1;
   overflow: hidden;
-  background: radial-gradient(circle, #0f1739, #080827);
+  background: radial-gradient(circle, #131d47, #03033b);
 }
 </style>
