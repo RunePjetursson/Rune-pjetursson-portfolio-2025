@@ -1,5 +1,7 @@
 <template>
   <div id="projects" class="cont cont-bg flex column align">
+    <h2>Projects</h2>
+    <hr />
     <div class="flex row align wrap fep-cont">
       <div class="fep-item flex column align">
         <p>Student</p>
@@ -44,6 +46,17 @@ import ProjectsSIDE from "./sub-components/ProjectsSIDE.vue";
 .cont {
   max-width: 1440px;
   margin: 25px;
+  overflow: hidden;
+  h2 {
+    align-self: flex-start;
+    margin-left: 30px;
+  }
+  hr {
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 100%;
+    border-color: #7e7e7e;
+  }
   .fep-cont {
     padding: 25px;
     gap: 25px;
@@ -51,27 +64,35 @@ import ProjectsSIDE from "./sub-components/ProjectsSIDE.vue";
       position: relative;
       height: 150px;
       width: 250px;
+      background-repeat: no-repeat;
+      background-size: cover;
       filter: saturate(2%);
       outline: double 45px transparent;
       border-radius: 15px;
-      transition: 0.2s all ease-in-out;
       background-color: rgb(0, 18, 117);
+      transition: 0.2s all ease-in-out;
       h3 {
         text-align: center;
-        background-color: rgba(4, 4, 4, 0.364);
         padding: 2%;
         width: 100%;
-        color: #ffffff7a;
+        font-size: 1.1rem;
+        transition: 0.5s all ease-in-out;
+        color: rgb(255, 255, 255);
+      }
+      p {
+        font-weight: 500;
       }
       &:hover {
         filter: saturate(100%);
         outline: solid 2px #ffffff7a;
         cursor: pointer;
+        h3 {
+          background-color: rgba(4, 4, 4, 0.208);
+          backdrop-filter: blur(5px);
+        }
       }
       &:nth-child(1) {
         background-image: url("../assets/img/dkon_focus-img.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
         background-position-y: -60px;
         &:hover {
           filter: saturate(100%);
@@ -80,14 +101,17 @@ import ProjectsSIDE from "./sub-components/ProjectsSIDE.vue";
       }
       &:nth-child(2) {
         background-image: url("../assets/img/dkon_focus-img.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
         background-position-y: -60px;
-      } /*
+      }
       &:nth-child(3) {
+        // Image from Google DeepMind
+        background-image: url("../assets/img/ai-flower.jpg");
+        background-position-y: -90px;
       }
       &:nth-child(4) {
-      } */
+        background-image: url("../assets/img/ai-object.jpg");
+      }
+
       .projects {
         position: absolute;
       }
