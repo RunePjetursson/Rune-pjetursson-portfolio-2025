@@ -19,7 +19,7 @@
             >
           </li>
           <li>
-            <a href="/contacts" title="Navigate to contact page">Contact</a>
+            <a href="/contact" title="Navigate to contact page">Contact</a>
           </li>
         </ul>
       </nav>
@@ -44,12 +44,15 @@ header {
     max-width: 1440px;
     position: relative;
     border-radius: 0 0 5px 5px;
+    overflow: hidden;
     nav {
       padding: 25px;
       filter: opacity(90%);
       margin-left: auto;
+
       ul {
         gap: 25px;
+
         li {
           a {
             text-shadow: 1px 1px 2px #000000;

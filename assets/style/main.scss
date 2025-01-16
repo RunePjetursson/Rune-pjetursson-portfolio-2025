@@ -23,6 +23,13 @@ p {
     filter: opacity(60%);
   }
 }
+main {
+  max-width: 1440px;
+  min-width: 350px;
+  margin: 0 auto;
+  min-height: 90vh;
+  width: 100%;
+}
 a {
   text-decoration: none;
   &:link {
@@ -113,4 +120,8 @@ button {
 .icon {
   width: 45px;
   height: 45px;
+}
+
+.invert {
+  filter: invert(1);
 }
