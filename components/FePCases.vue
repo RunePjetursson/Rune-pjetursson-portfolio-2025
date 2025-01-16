@@ -1,14 +1,18 @@
 <template>
   <div id="projects" class="cont cont-bg flex column align">
     <div class="flex row align wrap fep-cont">
-      <div class="fep-item flex align">
-        <h3>MMD</h3>
+      <div class="fep-item flex column align">
+        <p>Student</p>
+        <br />
+        <h3>Multimedia Design</h3>
         <div class="projects">
           <ProjectsMMD />
         </div>
       </div>
-      <div class="fep-item flex align">
-        <h3>DKON</h3>
+      <div class="fep-item flex column align">
+        <p>Student</p>
+        <br />
+        <h3>Digital Concept Development</h3>
         <div class="projects">
           <ProjectsDKON />
         </div>
@@ -54,16 +58,32 @@ import ProjectsSIDE from "./sub-components/ProjectsSIDE.vue";
       background-color: rgb(0, 18, 117);
       h3 {
         text-align: center;
+        background-color: rgba(4, 4, 4, 0.364);
+        padding: 2%;
+        width: 100%;
+        color: #ffffff7a;
       }
       &:hover {
         filter: saturate(100%);
         outline: solid 2px #ffffff7a;
         cursor: pointer;
-      } /*
+      }
       &:nth-child(1) {
+        background-image: url("../assets/img/dkon_focus-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -60px;
+        &:hover {
+          filter: saturate(100%);
+          filter: hue-rotate(200deg);
+        }
       }
       &:nth-child(2) {
-      }
+        background-image: url("../assets/img/dkon_focus-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -60px;
+      } /*
       &:nth-child(3) {
       }
       &:nth-child(4) {

@@ -16,7 +16,8 @@ export default defineNuxtConfig({
     },
     display: "swap",
   },
-  css: ["@/assets/style/main.scss"],
+  css: ["@/assets/style/main.scss", "@/assets/style/variables.scss"],
+
   cloudflareAnalytics: {
     token: "your-cloudflare-token",
   },
