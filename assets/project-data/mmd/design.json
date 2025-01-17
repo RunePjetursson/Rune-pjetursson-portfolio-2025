@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fitnessApp",
+    "title": "Design Challenge: Fitness App",
+    "gallery": [
+      {
+        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Exercises.png",
+        "alt": "Image of an app design"
+      },
+      {
+        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Workouts.png",
+        "alt": "Image of an app design"
+      },
+      {
+        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Challenges.png",
+        "alt": "Image of an app design"
+      },
+      {
+        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Tips.png",
+        "alt": "Image of an app design"
+      },
+      {
+        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Profile.png",
+        "alt": "Image of an app design"
+      }
+    ],
+    "link": {
+      "url": "#",
+      "text": "Design Challenge: Fitness App"
+    },
+    "sections": [
+      {
+        "heading": "The Interest",
+        "content": [
+          "As a dedicated fitness enthusiast, I observed a proliferation of money-driven fitness apps inundating the market with irrelevant content. Motivated by a quest for a more refined user experience, I embarked on crafting a conceptual design for a fitness app.",
+          "It's crucial to note that this is not a finished product but rather an initial exploration of a design concept. The primary focus was on a card-based UI for simplicity and a gradual unveiling of features."
+        ]
+      },
+      {
+        "heading": "The Thoughts",
+        "content": [
+          "Exploring the concept, my initial consideration was the creation of an intuitive 'Exercises' section. This aimed to enable users to discover specific exercises and understand their utility outside of their current workout routine. The idea revolved around presenting exercises in categories, allowing users to delve into detailed information seamlessly.",
+          "In the realm of 'Workouts,' the emphasis was on user input for crafting personalized routines. The vision encompassed features like naming routines, setting frequency, and incorporating a background image. A calendar function was conceived to facilitate progress tracking, offering users a comprehensive tool for their fitness journey.",
+          "It's worth noting that while the concept should include features like graphs, these are yet to be implemented. The consideration for future implementation stems from the belief that incorporating graphs would enhance the user experience and provide a valuable tool for users to track their progress over time."
+        ]
+      },
+      {
+        "heading": "The Problematics",
+        "content": [
+          "The challenges surfaced when confronting the prevalence of irrelevant content within the fitness app landscape. The solution-seeking mind grappled with the need for a non-intrusive user experience. This led to the conceptualization of the 'Challenge' and 'Tip' pages. Challenges became a platform for collaborative promotions among relevant industries, steering clear of conventional advertisements."
+        ]
+      },
+      {
+        "heading": "The Solution",
+        "content": [
+          "The 'Profile' tab emerged as a culmination of user-centric features. It aimed to consolidate editable information, legal details, third-party connections, and a history of app purchases, including potential premium features.",
+          "This conceptual solution aimed not only to navigate market challenges but also to prioritize user satisfaction through a seamlessly integrated fitness app experience. Remember, this is a concept design, and certain features, such as graphs, are planned for future implementation to further enhance the user experience."
+        ]
+      }
+    ]
+  }
+]

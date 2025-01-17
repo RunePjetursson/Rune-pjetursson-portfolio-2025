@@ -1,0 +1,70 @@
+[
+  {
+    "id": "taijiQigong",
+    "title": "Taiji & Qigong",
+    "gallery": [
+      {
+        "src": "/assets/img/projects/taijiQigong/Taiji_2.png",
+        "alt": "Picture of fysiotherapist doing stretching exercise with female patient"
+      },
+      {
+        "src": "/assets/img/projects/taijiQigong/Taiji_3.png",
+        "alt": "Image of JavaScript code, for the current case"
+      },
+      {
+        "src": "/assets/img/projects/taijiQigong/Taiji_4.png",
+        "alt": "Image of JavaScript code, for the current case"
+      },
+      {
+        "src": "/assets/img/projects/taijiQigong/Taiji_1.png",
+        "alt": "Image of the final product of the case"
+      },
+      {
+        "src": "/assets/img/projects/taijiQigong/Taiji_2.png",
+        "alt": "Image of the final product of the case"
+      },
+      {
+        "src": "/assets/img/projects/taijiQigong/Taiji_5.png",
+        "alt": "Image of the final product of the case"
+      },
+      {
+        "src": "/assets/img/projects/taijiQigong/Taiji_6.png",
+        "alt": "Image of the final product of the case"
+      }
+    ],
+    "link": {
+      "url": "https://mmd.ucn.dk/class/MMD-CSD-S22/10461970/Eksaminer/Sem1/Projekt_Taiji/taijiqigong/index.html",
+      "text": "Taiji & Qigong"
+    },
+    "sections": [
+      {
+        "heading": "The Interest",
+        "content": [
+          "In my inaugural semester of multimedia design studies, the task at hand was to forge a seamless and intuitive interface for a Taiji & qigong instructor. With the directive to emphasize both the elegance of the art form and the instructor's expertise, this project became a cornerstone of my 1st-semester exam.",
+          "Armed with the liberty to wield HTML and CSS, albeit without the crutch of JavaScript, the challenge was to create an engaging user experience. The content inherited from the original website was a labyrinth of information, demanding strategic organization to convey a cohesive narrative."
+        ]
+      },
+      {
+        "heading": "The Thoughts",
+        "content": [
+          "Navigating the uncharted waters of my first semester, the focus crystallized on fashioning a responsive design without JavaScript. Delving into the intricacies of creating drop-down menus and optimizing for future development without overcomplicating the workload became paramount.",
+          "Variables emerged as a key tool for maintaining consistency and facilitating efficient adjustments. The critical task of sifting through copious source material, required a discerning eye to select and showcase the most relevant content, setting the stage for a user-centric design."
+        ]
+      },
+      {
+        "heading": "The Problematics",
+        "content": [
+          "Being in the nascent stage of my academic journey presented challenges in managing overlaying elements, achieving a responsive design, and creating drop-downs without the crutch of JavaScript.",
+          "Balancing the presentation of comprehensive information about the instructor, services (classes), and the intricacies of the art form posed a unique conundrum. The absence of JavaScript heightened the complexity, demanding resourcefulness to deliver an intuitive and informative interface."
+        ]
+      },
+      {
+        "heading": "The Solution",
+        "content": [
+          "Resourcefulness and creativity became the linchpins in addressing these challenges. Employing the :checked pseudo-class, drop-down menus materialized seamlessly without JavaScript dependency. To fortify future development, colour variables were strategically bound to :root, providing a flexible framework for customization.",
+          "This solution not only navigated the constraints of a first-semester project but also laid the groundwork for an interface that not only met the exam criteria but showcased adaptability and strategic thinking."
+        ]
+      }
+    ]
+  }
+]

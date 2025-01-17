@@ -1,0 +1,58 @@
+[
+  {
+    "id": "fysioterapeuterne",
+    "title": "Fysioterapeuterne Cannerslundvej",
+    "gallery": [
+      {
+        "src": "/assets/img/projects/fysioterapeuterneCannerslundvej/Fysioterapeuterne_switch.png",
+        "alt": "Image of JavaScript code, for the current case"
+      },
+      {
+        "src": "/assets/img/projects/fysioterapeuterneCannerslundvej/Fysioterapeuterne_fetch.png",
+        "alt": "Image of JavaScript code, for the current case"
+      },
+      {
+        "src": "/assets/img/projects/fysioterapeuterneCannerslundvej/Fysioterapeuterne_product.png",
+        "alt": "Image of the final product of the case"
+      },
+      {
+        "src": "/assets/img/projects/fysioterapeuterneCannerslundvej/contact.png",
+        "alt": "Image of the final product of the case"
+      }
+    ],
+    "link": {
+      "url": "https://mmd.ucn.dk/class/MMD-CSD-S22/10461970/Eksaminer/Sem2/MMD2/Fysioterapeuterne%20Cannerslundvej_MMD2_Sem%202_Gruppe%2004/",
+      "text": "Fysioterapeuterne Cannerslundvej"
+    },
+    "sections": [
+      {
+        "heading": "The Interest",
+        "content": [
+          "Creating a specialized user interface for physiotherapists during my second semester of multimedia design studies captivated my interest.",
+          "The project involved blending professional medical aesthetics with a B2C dynamic."
+        ]
+      },
+      {
+        "heading": "The Thoughts",
+        "content": [
+          "Embarking on the endeavour of setting up a headless-CMS with WordPress for the first time was exhilarating.",
+          "Leveraging innerHTML offered a nimble and efficient alternative to traditional DOM manipulation."
+        ]
+      },
+      {
+        "heading": "The Problematics",
+        "content": [
+          "Setting up separate fetch functions for individual pages was inadequate, prompting us to find more comprehensive solutions.",
+          "The iterative process of revisiting categorizations highlighted the importance of adaptability."
+        ]
+      },
+      {
+        "heading": "The Solution",
+        "content": [
+          "We implemented a switch function to dynamically fetch categories based on the URL.",
+          "This approach created a modular and efficient system for data retrieval tailored to each webpage."
+        ]
+      }
+    ]
+  }
+]

@@ -1,10 +1,10 @@
 <template>
   <section class="txt-box flex row">
     <div class="flex column txt-left">
-      <h2 class="column-1">Title</h2>
-      <h2 class="column-1">Occupation</h2>
-      <h2 class="column-1">Age</h2>
-      <h2 class="column-1">What I know</h2>
+      <h4 class="column-1">Title</h4>
+      <h4 class="column-1">Occupation</h4>
+      <h4 class="column-1">Age</h4>
+      <h4 class="column-1">What I know</h4>
     </div>
     <hr aria-hidden="true" />
     <div class="flex column txt-right">
@@ -83,7 +83,7 @@ const allItems = [
   gap: 15px;
   overflow: hidden;
   width: 100%;
-  h2 {
+  h4 {
     font-size: 1rem;
     font-weight: 600;
   }
@@ -117,7 +117,7 @@ const allItems = [
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    animation: scrollText 90s linear infinite;
+    animation: scrollText 100s linear infinite;
     width: auto;
     &:hover {
       animation-play-state: paused;
