@@ -33,6 +33,9 @@
   .port {
     margin: 25px;
     gap: 15px;
+    background-color: rgba(0, 0, 0, 0.485);
+    padding: 25px;
+    border-radius: 25px;
     a {
       text-decoration: underline;
       span {
