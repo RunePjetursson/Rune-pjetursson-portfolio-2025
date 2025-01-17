@@ -122,7 +122,8 @@ main {
   max-width: 1000px;
   .info-box {
     .portrait {
-      background-image: url("@/assets/img/IMG_0508.png");
+      background-image: url("@/assets/img/IMG_0508.png"),
+        url("@/assets/img/IMG-compressed.webp");
       background-size: cover;
       background-repeat: no-repeat;
       height: 500px;
@@ -131,10 +132,10 @@ main {
     .txt-cont {
       padding: 25px;
       max-width: 50%;
+      gap: 15px;
       @media (max-width: 582px) {
         max-width: 90%;
       }
-      gap: 15px;
       .contact-socials {
         position: relative;
         overflow: hidden;
