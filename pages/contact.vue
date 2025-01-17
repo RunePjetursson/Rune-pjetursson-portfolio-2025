@@ -122,8 +122,8 @@ main {
   max-width: 1000px;
   .info-box {
     .portrait {
-      background-image: url("@/assets/img/IMG_0508.png"),
-        url("@/assets/img/IMG-compressed.webp");
+      background-image: url("@/assets/img/IMG-compressed.webp"),
+        url("@/assets/img/IMG_0508.png");
       background-size: cover;
       background-repeat: no-repeat;
       height: 500px;
