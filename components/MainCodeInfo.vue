@@ -3,7 +3,16 @@
     <section class="flex column align">
       <h2>Currently Under Construction</h2>
       <p>Pardon the mess and lack of information</p>
-      <p><span>Expected done by</span> 19th of February</p>
+      <p><span>Expected done by</span> 19th of January</p>
+      <div class="flex column port">
+        <p>I refer to my previous portfolio in the meantime</p>
+        <a
+          title="open old portfolio in new window"
+          href="https://mmd.ucn.dk/class/MMD-CSD-S22/10461970/Eksaminer/Sem3/Rune%20Pjetursson_version%203/"
+          target="_blank"
+          >Portfolio 2023-24 <span>(open link in new window)</span></a
+        >
+      </div>
     </section>
   </div>
 </template>
@@ -19,6 +28,17 @@
     gap: 25px;
     h2 {
       text-decoration: underline;
+    }
+  }
+  .port {
+    margin: 25px;
+    gap: 15px;
+    a {
+      text-decoration: underline;
+      span {
+        color: #c4c4c488;
+        text-decoration: wavy;
+      }
     }
   }
 }
