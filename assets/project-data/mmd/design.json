@@ -4,28 +4,28 @@
     "title": "Design Challenge: Fitness App",
     "gallery": [
       {
-        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Exercises.png",
+        "src": "/projects/Design-Challenge_Fitness-App/Exercises.png",
         "alt": "Image of an app design"
       },
       {
-        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Workouts.png",
+        "src": "/projects/Design-Challenge_Fitness-App/Workouts.png",
         "alt": "Image of an app design"
       },
       {
-        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Challenges.png",
+        "src": "/projects/Design-Challenge_Fitness-App/Challenges.png",
         "alt": "Image of an app design"
       },
       {
-        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Tips.png",
+        "src": "/projects/Design-Challenge_Fitness-App/Tips.png",
         "alt": "Image of an app design"
       },
       {
-        "src": "/assets/img/projects/Design-Challenge_Fitness-App/Profile.png",
+        "src": "/projects/Design-Challenge_Fitness-App/Profile.png",
         "alt": "Image of an app design"
       }
     ],
     "link": {
-      "url": "#",
+      "url": "https://www.figma.com/proto/0Csop8RO7F1mQdsrim9KCw/Workout_plan_designProject?page-id=0%3A1&node-id=1-84&p=f&viewport=551%2C286%2C0.32&t=B7gdAuAF0nPselcX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
       "text": "Design Challenge: Fitness App"
     },
     "sections": [

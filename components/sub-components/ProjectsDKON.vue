@@ -6,9 +6,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
 .container {
