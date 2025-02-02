@@ -1,75 +1,55 @@
-# Nuxt Minimal Starter
+# Portfolio Rune Pjetursson 2025
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 🌐 About the Project
 
-## Setup
+This is my **personal portfolio** built using **Nuxt 3**. It showcases my work in **UX design, front-end development, and digital concept development**, reflecting my journey as a **student of Digital Concept Development** and my professional experience through **Eye on Idea**.
 
-Make sure to install dependencies:
+## 🚀 Tech Stack
 
-```bash
-# npm
+- **Framework:** [Nuxt 3](https://nuxt.com) ⚡️
+- **Styling:** [Sass](https://sass-lang.com) 🎨
+- **3D & Graphics:** [Three.js](https://threejs.org) 🌟
+- **SEO Optimization:** [Nuxt SEO](https://github.com/harlan-zw/nuxt-seo) 📈
+- **Theme & Color Mode:** [Nuxt Color Mode](https://color-mode.nuxtjs.org) 🌙🌞
+- **Fonts:** [Nuxt Google Fonts](https://google-fonts.nuxtjs.org) 🖋️
+
+## 🛠 Setup & Development
+
+### Install Dependencies
+
+```sh
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+### Run in Development Mode
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```sh
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+### Build for Production
 
-Build the application for production:
-
-```bash
-# npm
+```sh
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+### Generate Static Files
 
-```bash
-# npm
+```sh
+npm run generate
+```
+
+### Preview Build
+
+```sh
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 📌 Features
+
+- 🔥 **Modern Front-End** powered by **Vue 3** and **Nuxt 3**
+- 🌗 **Dark Mode Support** with `@nuxtjs/color-mode`
+- 🎯 **Optimized for SEO** with `@nuxtjs/seo`
+- 🎨 **Custom Styles** with `sass` and `@nuxtjs/style-resources`
+- 🖥 **Interactive 3D Elements** using `three.js`
+- 🚀 **Fast & Efficient** with static site generation
