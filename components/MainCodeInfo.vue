@@ -3,7 +3,7 @@
     <section class="flex column align">
       <h2>Currently Under Construction</h2>
       <p>Pardon the mess and lack of information</p>
-      <p><span>Expected done by</span> January 25th</p>
+      <p><span>Expected done by</span> March</p>
       <div class="flex column port">
         <p>I refer to my previous portfolio in the meantime</p>
         <a
